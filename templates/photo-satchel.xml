@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>photo-satchel</Name>
+  <Repository>devbrewery/photo-satchel</Repository>
+  <Registry>https://hub.docker.com/r/devbrewery/photo-satchel</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/devbrewery/photo-satchel</Project>
+  <Overview>
+Photo Satchel is a web application built with Next.js.
+  </Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/devbrewery/photo-satchel/release/unraid/icon.png</Icon>
+  <Config Name="Web UI" Target="3000" Default="3000" Mode="tcp" Description="Web UI port" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Node Environment" Target="NODE_ENV" Default="production" Mode="" Description="Node environment" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+</Container>
